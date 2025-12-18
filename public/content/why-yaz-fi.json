@@ -40,9 +40,9 @@
     },
     {
       "id": "support",
-      "title": "Tuki suomeksi",
+      "title": "Tuki suomeksi ja englanniksi",
       "tech": "Paikallinen palvelu, Suora yhteydenpito",
-      "description": "Selkeä kommunikaatio ja tuki suomen kielellä. Ei hämmentävää ammattislangia - kaikki selitetään selvästi ja ymmärrettävästi.",
+      "description": "Selkeä kommunikaatio ja tuki suomeksi ja englanniksi. Ei hämmentävää ammattislangia - kaikki selitetään selvästi ja ymmärrettävästi.",
       "icon": "💬"
     }
   ]
