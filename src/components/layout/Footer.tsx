@@ -69,6 +69,17 @@ export function Footer() {
         <p className="footer__copyright">
           © {currentYear} {content.brand.name}. {content.copyright}
         </p>
+
+        <p className="footer__company">
+          <a
+            href="https://yazzo.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer__company-link"
+          >
+            Yazzo.io Oy
+          </a>
+        </p>
       </div>
     </footer>
   )

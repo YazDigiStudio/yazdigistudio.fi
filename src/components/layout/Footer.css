@@ -83,6 +83,27 @@
   text-align: center;
 }
 
+/* ==================== COMPANY LINK ==================== */
+
+.footer__company {
+  font-family: var(--font-primary);
+  font-size: 0.8125rem;
+  font-weight: 300;
+  margin: var(--space-2) 0 0 0;
+  text-align: center;
+}
+
+.footer__company-link {
+  color: rgba(139, 92, 246, 0.8);
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.footer__company-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
 /* ==================== RESPONSIVE ==================== */
 
 @media (max-width: 768px) {
