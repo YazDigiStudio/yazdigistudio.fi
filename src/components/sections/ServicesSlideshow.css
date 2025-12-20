@@ -88,6 +88,7 @@
   flex: 0 0 100%;
   min-width: 0;
   position: relative;
+  scroll-margin-top: 64px;
 }
 
 
@@ -117,6 +118,32 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ==================== INCLUDED IN ALL (Pricing) ==================== */
+
+.service-slide__included {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-width: 700px;
+  margin: 0 auto var(--space-8) auto;
+  padding: var(--space-5);
+  background: rgba(139, 92, 246, 0.05);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.included-feature {
+  font-family: var(--font-primary);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-secondary);
+}
+
+.included-feature strong {
+  color: var(--color-black);
+  font-weight: 500;
 }
 
 /* ==================== STEP CARDS (Process) ==================== */
@@ -179,7 +206,7 @@
 }
 
 .package-card {
-  padding: var(--space-6);
+  padding: var(--space-4);
   border: 1px solid rgba(15, 23, 42, 0.1);
   border-radius: var(--border-radius-lg);
   background: rgba(255, 255, 255, 0.5);
@@ -237,7 +264,7 @@
   padding: var(--space-2) 0;
   border-bottom: 1px solid rgba(15, 23, 42, 0.05);
   position: relative;
-  padding-left: var(--space-5);
+  padding-left: 1.75rem;
 }
 
 .package-card__features li:last-child {
@@ -297,6 +324,10 @@
 @media (max-width: 768px) {
   .services-slideshow {
     padding: var(--space-12) 0;
+    scroll-margin-top: 56px;
+  }
+
+  .embla__slide {
     scroll-margin-top: 56px;
   }
 

@@ -1,42 +1,51 @@
 {
-  "title": "Esimerkit",
-  "shortTitle": "Esimerkit",
-  "subtitle": "Tässä esimerkkejä toteutuksista, lopullinen hinta määritellään projektin todellisen laajuuden mukaan ja sovitaan erikseen aloitusvaiheessa.",
+  "title": "Hinnoittelu",
+  "shortTitle": "Hinnoittelu",
+  "subtitle": "Kaikki paketit sisältävät ammattimaiset ominaisuudet, jotka saavat verkkosivustosi toimimaan täydellisesti",
+  "includedInAll": [
+    {
+      "feature": "Hakukoneoptimoi­tu",
+      "description": "Sivustosi on rakennettu sijoittumaan hyvin Googlen hakutuloksissa"
+    },
+    {
+      "feature": "Responsiivinen suunnittelu",
+      "description": "Toimii täydellisesti puhelimilla, tableteilla ja tietokoneilla"
+    },
+    {
+      "feature": "CMS sisällönhallinta",
+      "description": "Helppokäyttöinen hallintapaneeli sisällön päivittämiseen itse"
+    }
+  ],
   "packages": [
     {
       "id": "basic",
       "name": "Perus",
-      "price": "alkaen 799€ + alv",
+      "price": "alkaen 799€",
       "stars": "⭐",
       "features": [
         "3+ sivua",
-        "CMS sisällönhallinta",
-        "Responsiivinen",
-        "Hakukoneystävällinen"
+        "Ulkoasusuunnittelu"
       ]
     },
     {
       "id": "extended",
       "name": "Laajennettu",
-      "price": "alkaen 999€ + alv",
+      "price": "alkaen 999€",
       "stars": "⭐⭐",
       "features": [
         "5+ sivua",
-        "Lomake",
-        "Galleria/kortit",
-        "Ikonit"
+        "Esimerkiksi: Galleria, keikkalista, menu"
       ]
     },
     {
-      "id": "business",
+      "id": "company",
       "name": "Yritys",
-      "price": "alkaen 1499€ + alv",
+      "price": "alkaen 1 999€",
       "stars": "⭐⭐⭐",
       "features": [
-        "6+ sivua",
+        "5+ sivua",
         "Useita komponentteja",
-        "Räätälöity layout",
-        "Edistynyt optimointi"
+        "Esimerkiksi: Kalenteri, verkkokauppa, varausjärjestelmä"
       ]
     }
   ]

@@ -1,42 +1,18 @@
 {
   "title": "Maintenance & Care",
   "shortTitle": "Maintenance",
-  "subtitle": "Keep your site secure and running smoothly",
+  "subtitle": "Do what you love - we take care of the technical stuff",
   "packages": [
     {
-      "id": "basic-care",
-      "name": "Basic maintenance",
+      "id": "maintenance",
+      "name": "Website Maintenance",
       "price": "129€/year",
       "stars": "⭐",
       "features": [
         "Technical monitoring",
         "Security updates",
-        "Backups",
-        "Email support"
-      ]
-    },
-    {
-      "id": "extended-care",
-      "name": "Extended maintenance",
-      "price": "199€/year",
-      "stars": "⭐⭐",
-      "features": [
-        "Code changes max 2h/mo",
-        "Fast support",
-        "Performance monitoring",
-        "Monthly report"
-      ]
-    },
-    {
-      "id": "premium-care",
-      "name": "Premium maintenance",
-      "price": "299€/year",
-      "stars": "⭐⭐⭐",
-      "features": [
-        "Code changes 4h/mo",
-        "Priority support",
-        "Development suggestions",
-        "Analytics"
+        "Automatic backups",
+        "We handle everything"
       ]
     }
   ]

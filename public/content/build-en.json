@@ -1,42 +1,51 @@
 {
-  "title": "Examples",
-  "shortTitle": "Examples",
-  "subtitle": "Here are examples of implementations, the final price is determined based on the actual scope of the project and will be agreed separately at the start.",
+  "title": "Pricing",
+  "shortTitle": "Pricing",
+  "subtitle": "All packages include professional features that make your website work perfectly",
+  "includedInAll": [
+    {
+      "feature": "SEO Optimized",
+      "description": "Your site is built to rank well in Google search results"
+    },
+    {
+      "feature": "Responsive Design",
+      "description": "Works perfectly on phones, tablets, and computers"
+    },
+    {
+      "feature": "CMS Content Management",
+      "description": "Easy-to-use admin panel to update content yourself"
+    }
+  ],
   "packages": [
     {
       "id": "basic",
       "name": "Basic",
-      "price": "from 799€ + VAT",
+      "price": "from 799€",
       "stars": "⭐",
       "features": [
         "3+ pages",
-        "CMS content management",
-        "Responsive",
-        "SEO friendly"
+        "Layout design"
       ]
     },
     {
       "id": "extended",
       "name": "Extended",
-      "price": "from 999€ + VAT",
+      "price": "from 999€",
       "stars": "⭐⭐",
       "features": [
         "5+ pages",
-        "Contact form",
-        "Gallery/cards",
-        "Icons"
+        "For example: Gallery, gig schedule, menu"
       ]
     },
     {
-      "id": "business",
-      "name": "Business",
-      "price": "from 1499€ + VAT",
+      "id": "company",
+      "name": "Company",
+      "price": "from 1,999€",
       "stars": "⭐⭐⭐",
       "features": [
-        "6+ pages",
+        "5+ pages",
         "Multiple components",
-        "Custom layout",
-        "Advanced optimization"
+        "For example: Calendar, online shop, booking system"
       ]
     }
   ]

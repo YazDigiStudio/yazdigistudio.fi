@@ -1,42 +1,18 @@
 {
   "title": "Ylläpito & Huolto",
   "shortTitle": "Ylläpito",
-  "subtitle": "Pidämme sivustosi turvassa ja toimivana",
+  "subtitle": "Tee sitä mitä rakastat - me hoidamme tekniset asiat",
   "packages": [
     {
-      "id": "basic-care",
-      "name": "Perusylläpito",
+      "id": "maintenance",
+      "name": "Sivuston ylläpito",
       "price": "129€/vuosi",
       "stars": "⭐",
       "features": [
         "Tekninen valvonta",
         "Turvallisuuspäivitykset",
-        "Varmuuskopiointi",
-        "Sähköpostituki"
-      ]
-    },
-    {
-      "id": "extended-care",
-      "name": "Laajennettu ylläpito",
-      "price": "199€/vuosi",
-      "stars": "⭐⭐",
-      "features": [
-        "Koodimuutokset max 2h/kk",
-        "Nopea tuki",
-        "Suorituskyvyn seuranta",
-        "Kuukausiraportti"
-      ]
-    },
-    {
-      "id": "premium-care",
-      "name": "Premium ylläpito",
-      "price": "299€/vuosi",
-      "stars": "⭐⭐⭐",
-      "features": [
-        "Koodimuutokset 4h/kk",
-        "Prioriteettituki",
-        "Kehitysehdotukset",
-        "Analytiikka"
+        "Automaattiset varmuuskopiot",
+        "Hoidamme kaiken"
       ]
     }
   ]

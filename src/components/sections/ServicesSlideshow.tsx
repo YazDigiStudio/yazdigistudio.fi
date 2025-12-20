@@ -13,6 +13,10 @@ type ServiceContent = {
   title: string
   shortTitle: string
   subtitle?: string
+  includedInAll?: Array<{
+    feature: string
+    description: string
+  }>
   steps?: Array<{
     number: string
     title: string
@@ -98,12 +102,21 @@ export function ServicesSlideshow() {
               </div>
             </div>
 
-            {/* Build/Examples Slide */}
+            {/* Build/Pricing Slide */}
             <div className="embla__slide">
               <div className="service-slide">
                 <h2 className="service-slide__title">{buildContent.title}</h2>
                 {buildContent.subtitle && (
                   <p className="service-slide__subtitle">{buildContent.subtitle}</p>
+                )}
+                {buildContent.includedInAll && buildContent.includedInAll.length > 0 && (
+                  <div className="service-slide__included">
+                    {buildContent.includedInAll.map((item, index) => (
+                      <div key={index} className="included-feature">
+                        <strong>{item.feature}:</strong> {item.description}
+                      </div>
+                    ))}
+                  </div>
                 )}
                 <div className="service-slide__packages">
                   {buildContent.packages?.map((pkg) => (
