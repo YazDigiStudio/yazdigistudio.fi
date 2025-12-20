@@ -1,7 +1,7 @@
 /**
  * WhyYaz Component
  *
- * Displays benefits and reasons to choose Yaz DigiStudio
+ * Displays benefits and reasons to choose YazDigiStudio
  */
 
 import { useEffect, useState } from 'react'

@@ -1,4 +1,4 @@
-# Netlify Configuration for Yaz DigiStudio
+# Netlify Configuration for YazDigiStudio
 
 [build]
   publish = "dist"

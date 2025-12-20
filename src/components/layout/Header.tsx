@@ -40,7 +40,7 @@ export function Header() {
           e.preventDefault()
           window.scrollTo({ top: 0, behavior: 'smooth' })
         }}>
-          <span className="header__logo-text">Yaz DigiStudio</span>
+          <span className="header__logo-text">YazDigiStudio</span>
         </a>
 
         <nav className={`header__nav ${mobileMenuOpen ? 'header__nav--open' : ''}`}>

@@ -1,7 +1,7 @@
 /**
  * About Component
  *
- * Displays information about Timo Saari and Yazzo.io Oy
+ * Displays information about Timo Saari and YazDigiStudio
  */
 
 import { useEffect, useState } from 'react'
@@ -53,7 +53,7 @@ export function About() {
           <div className="about__image-wrapper">
             <img
               src="/images/optimized/timo.webp"
-              alt="Timo Saari - Web Developer at Yaz DigiStudio"
+              alt="Timo Saari - Web Developer at YazDigiStudio"
               className="about__image"
             />
           </div>
