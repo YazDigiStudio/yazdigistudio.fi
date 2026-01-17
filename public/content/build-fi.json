@@ -8,6 +8,10 @@
       "description": "Sivustosi on rakennettu sijoittumaan hyvin Googlen hakutuloksissa"
     },
     {
+      "feature": "AI-optimoitu",
+      "description": "Sisältö optimoitu AI-hakukoneille kuten ChatGPT, Claude ja Perplexity"
+    },
+    {
       "feature": "Responsiivinen suunnittelu",
       "description": "Toimii täydellisesti puhelimilla, tableteilla ja tietokoneilla"
     },

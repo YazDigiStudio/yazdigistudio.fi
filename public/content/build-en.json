@@ -8,6 +8,10 @@
       "description": "Your site is built to rank well in Google search results"
     },
     {
+      "feature": "AI Optimized",
+      "description": "Content optimized for AI search engines like ChatGPT, Claude, and Perplexity"
+    },
+    {
       "feature": "Responsive Design",
       "description": "Works perfectly on phones, tablets, and computers"
     },
