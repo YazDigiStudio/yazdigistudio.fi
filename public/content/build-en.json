@@ -23,10 +23,7 @@
       "price": "799€ + 129€/year or 49€/month",
       "stars": "⭐",
       "features": [
-        "Frontpage",
-        "About us page",
-        "Our team page",
-        "Contact page"
+        "For example: Frontpage, About us page, Our team page, Contact page"
       ]
     },
     {
@@ -36,7 +33,7 @@
       "stars": "⭐⭐",
       "features": [
         "Basic +",
-        "Calendar/Blog/Gallery"
+        "For example: Calendar/Blog/Gallery"
       ]
     },
     {
@@ -46,7 +43,7 @@
       "stars": "⭐⭐⭐",
       "features": [
         "Extended +",
-        "Online shop or booking system integration"
+        "For example: Online shop or booking system integration"
       ]
     }
   ]

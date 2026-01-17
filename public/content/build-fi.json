@@ -23,10 +23,7 @@
       "price": "799€ + 129€/vuosi tai 49€/kk",
       "stars": "⭐",
       "features": [
-        "Etusivu",
-        "Meistä-sivu",
-        "Tiimimme-sivu",
-        "Yhteystiedot-sivu"
+        "Esimerkiksi: Etusivu, Meistä-sivu, Tiimimme-sivu, Yhteystiedot-sivu"
       ]
     },
     {
@@ -36,7 +33,7 @@
       "stars": "⭐⭐",
       "features": [
         "Perus +",
-        "Kalenteri/Blogi/Galleria"
+        "Esimerkiksi: Kalenteri/Blogi/Galleria"
       ]
     },
     {
@@ -46,7 +43,7 @@
       "stars": "⭐⭐⭐",
       "features": [
         "Laajennettu +",
-        "Verkkokauppa tai varausjärjestelmä integraatio"
+        "Esimerkiksi: Verkkokauppa tai varausjärjestelmä integraatio"
       ]
     }
   ]
