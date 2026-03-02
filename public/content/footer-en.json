@@ -7,5 +7,7 @@
     "email": "info@yazzo.io",
     "phone": "+358 50 466 8803"
   },
-  "copyright": "All rights reserved."
+  "copyright": "All rights reserved.",
+  "privacyLabel": "Privacy Policy",
+  "privacyUrl": "/privacy.html"
 }

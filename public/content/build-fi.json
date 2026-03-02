@@ -8,8 +8,8 @@
       "description": "Sivustosi on rakennettu sijoittumaan hyvin Googlen hakutuloksissa"
     },
     {
-      "feature": "AI-optimoitu",
-      "description": "Sisältö optimoitu AI-hakukoneille kuten ChatGPT ja Gemini"
+      "feature": "AI-valmis",
+      "description": "Sivuston rakenne on suunniteltu niin, että AI-hakukoneet voivat lukea sen helposti"
     },
     {
       "feature": "Responsiivinen suunnittelu",
@@ -24,7 +24,7 @@
     {
       "id": "basic",
       "name": "Perus",
-      "price": "799€ + 129€/vuosi tai 49€/kk",
+      "price": "799€ + 129€/vuosi tai 299€ + 49€/kk",
       "stars": "⭐",
       "features": [
         "Esimerkiksi: Etusivu, Meistä-sivu, Tiimimme-sivu, Yhteystiedot-sivu"
@@ -33,7 +33,7 @@
     {
       "id": "extended",
       "name": "Laajennettu",
-      "price": "999€ + 129€/vuosi tai 59€/kk",
+      "price": "999€ + 129€/vuosi tai 299€ + 59€/kk",
       "stars": "⭐⭐",
       "features": [
         "Perus +",
@@ -43,7 +43,7 @@
     {
       "id": "company",
       "name": "Yritys",
-      "price": "alkaen 1 999€ + 129€/vuosi tai alkaen 129€/kk",
+      "price": "Pyydä tarjous",
       "stars": "⭐⭐⭐",
       "features": [
         "Laajennettu +",

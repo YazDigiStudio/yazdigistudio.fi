@@ -1,10 +1,22 @@
 {
   "title": "Get in touch",
   "shortTitle": "Contact",
-  "subtitle": "Contact us by email or phone",
+  "subtitle": "Contact me by email, phone or the form below",
   "info": {
     "email": "info@yazzo.io",
     "phone": "+358 45 3306645",
     "responseTime": "I usually respond within 1-2 business days"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send",
+    "success": "Thank you! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "privacyNote": "By submitting this form, you agree to our",
+    "privacyLink": "Privacy Policy",
+    "privacyUrl": "/privacy.html"
   }
 }

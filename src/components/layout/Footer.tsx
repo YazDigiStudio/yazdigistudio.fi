@@ -18,6 +18,8 @@ type FooterContent = {
     phone: string
   }
   copyright: string
+  privacyLabel: string
+  privacyUrl: string
 }
 
 export function Footer() {
@@ -67,7 +69,13 @@ export function Footer() {
         </div>
 
         <p className="footer__copyright">
-          © {currentYear} {content.brand.name}. {content.copyright}
+          © {currentYear} {content.brand.name}. {content.copyright}{" "}
+          <a
+            href={content.privacyUrl}
+            className="footer__privacy-link"
+          >
+            {content.privacyLabel}
+          </a>
         </p>
 
         <p className="footer__company">

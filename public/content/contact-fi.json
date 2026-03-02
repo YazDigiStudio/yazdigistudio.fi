@@ -1,10 +1,22 @@
 {
   "title": "Ota yhteyttä",
   "shortTitle": "Yhteystiedot",
-  "subtitle": "Ota yhteyttä sähköpostilla tai puhelimella",
+  "subtitle": "Ota yhteyttä sähköpostilla, puhelimella tai lomakkeella",
   "info": {
     "email": "info@yazzo.io",
     "phone": "+358 45 3306645",
     "responseTime": "Vastaan yleensä 1-2 arkipäivän sisällä"
+  },
+  "form": {
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "message": "Viesti",
+    "submit": "Lähetä",
+    "success": "Kiitos! Otan sinuun yhteyttä pian.",
+    "error": "Jotain meni pieleen. Yritä uudelleen.",
+    "privacyNote": "Lähettämällä lomakkeen hyväksyt",
+    "privacyLink": "tietosuojaselosteen",
+    "privacyUrl": "/tietosuoja.html"
   }
 }

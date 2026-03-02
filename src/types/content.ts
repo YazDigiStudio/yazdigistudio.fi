@@ -73,11 +73,22 @@ export type WhyYazContent = {
 export type ContactContent = {
   title: string
   shortTitle: string
-  email?: string
-  phone?: string
-  address?: string
-  socialLinks?: Array<{
-    platform: string
-    url: string
-  }>
+  subtitle: string
+  info: {
+    email: string
+    phone: string
+    responseTime: string
+  }
+  form: {
+    name: string
+    email: string
+    phone: string
+    message: string
+    submit: string
+    success: string
+    error: string
+    privacyNote: string
+    privacyLink: string
+    privacyUrl: string
+  }
 }

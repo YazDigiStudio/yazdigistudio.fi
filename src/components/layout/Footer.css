@@ -83,6 +83,18 @@
   text-align: center;
 }
 
+/* ==================== PRIVACY LINK ==================== */
+
+.footer__privacy-link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer__privacy-link:hover {
+  color: var(--color-accent);
+}
+
 /* ==================== COMPANY LINK ==================== */
 
 .footer__company {
