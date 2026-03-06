@@ -79,13 +79,21 @@ export function Contact() {
     e.preventDefault()
     setStatus("submitting")
     try {
-      await fetch("/", {
+      const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encodeFormData({ "form-name": "contact", ...formData }),
+        body: encodeFormData({
+          "form-name": "contact",
+          "bot-field": "",
+          ...formData,
+        }),
       })
-      setStatus("success")
-      setFormData({ name: "", email: "", phone: "", message: "" })
+      if (response.ok) {
+        setStatus("success")
+        setFormData({ name: "", email: "", phone: "", message: "" })
+      } else {
+        setStatus("error")
+      }
     } catch {
       setStatus("error")
     }
