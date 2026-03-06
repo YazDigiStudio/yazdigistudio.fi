@@ -4,8 +4,10 @@
   publish = "dist"
   command = "npm run build"
 
-# SPA routing - redirect all requests to index.html
+# SPA routing - redirect GET/HEAD requests to index.html
+# POST requests are handled by Netlify Forms
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  conditions = {Method = ["GET", "HEAD"]}
