@@ -1,6 +1,6 @@
 {
-  "title": "Hinnoittelu",
-  "shortTitle": "Hinnoittelu",
+  "title": "Palvelumme",
+  "shortTitle": "Palvelumme",
   "subtitle": "Kaikki paketit sisältävät ammattimaiset ominaisuudet, jotka saavat verkkosivustosi toimimaan täydellisesti",
   "includedInAll": [
     {
@@ -24,7 +24,6 @@
     {
       "id": "basic",
       "name": "Perus",
-      "price": "799€ + 129€/vuosi tai 299€ + 49€/kk",
       "stars": "⭐",
       "features": [
         "Esimerkiksi: Etusivu, Meistä-sivu, Tiimimme-sivu, Yhteystiedot-sivu"
@@ -33,7 +32,6 @@
     {
       "id": "extended",
       "name": "Laajennettu",
-      "price": "999€ + 129€/vuosi tai 299€ + 59€/kk",
       "stars": "⭐⭐",
       "features": [
         "Perus +",
@@ -43,7 +41,6 @@
     {
       "id": "company",
       "name": "Yritys",
-      "price": "Pyydä tarjous",
       "stars": "⭐⭐⭐",
       "features": [
         "Laajennettu +",

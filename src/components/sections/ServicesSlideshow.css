@@ -240,14 +240,6 @@
   font-size: 1rem;
 }
 
-.package-card__price {
-  font-family: var(--font-primary);
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--color-accent);
-  margin-bottom: var(--space-4);
-}
-
 .package-card__features {
   list-style: none;
   padding: 0;
@@ -369,7 +361,4 @@
     font-size: 2rem;
   }
 
-  .package-card__price {
-    font-size: 1.5rem;
-  }
 }

@@ -25,7 +25,6 @@ type ServiceContent = {
   packages?: Array<{
     id: string
     name: string
-    price: string
     stars: string
     features: string[]
   }>
@@ -125,7 +124,6 @@ export function ServicesSlideshow() {
                         <h3 className="package-card__name">{pkg.name}</h3>
                         <div className="package-card__stars">{pkg.stars}</div>
                       </div>
-                      <div className="package-card__price">{pkg.price}</div>
                       <ul className="package-card__features">
                         {pkg.features.map((feature, index) => (
                           <li key={index}>{feature}</li>
@@ -151,7 +149,6 @@ export function ServicesSlideshow() {
                         <h3 className="package-card__name">{pkg.name}</h3>
                         <div className="package-card__stars">{pkg.stars}</div>
                       </div>
-                      <div className="package-card__price">{pkg.price}</div>
                       <ul className="package-card__features">
                         {pkg.features.map((feature, index) => (
                           <li key={index}>{feature}</li>

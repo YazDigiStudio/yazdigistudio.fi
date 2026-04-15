@@ -15,7 +15,7 @@ type NavItem = {
 }
 
 const navItems: NavItem[] = [
-  { labelFi: 'Palvelut ja hinnoittelu', labelEn: 'Services & Pricing', href: '#services' },
+  { labelFi: 'Palvelut', labelEn: 'Services', href: '#services' },
   { labelFi: 'Miksi YazDigiStudio?', labelEn: 'Why YazDigiStudio?', href: '#why-yaz' },
   { labelFi: 'Meistä', labelEn: 'About', href: '#about' },
   { labelFi: 'Ota yhteyttä', labelEn: 'Contact', href: '#contact' }

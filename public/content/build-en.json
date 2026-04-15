@@ -1,6 +1,6 @@
 {
-  "title": "Pricing",
-  "shortTitle": "Pricing",
+  "title": "Our Services",
+  "shortTitle": "Our Services",
   "subtitle": "All packages include professional features that make your website work perfectly",
   "includedInAll": [
     {
@@ -24,7 +24,6 @@
     {
       "id": "basic",
       "name": "Basic",
-      "price": "799€ + 129€/year or 299€ + 49€/month",
       "stars": "⭐",
       "features": [
         "For example: Frontpage, About us page, Our team page, Contact page"
@@ -33,7 +32,6 @@
     {
       "id": "extended",
       "name": "Extended",
-      "price": "999€ + 129€/year or 299€ + 59€/month",
       "stars": "⭐⭐",
       "features": [
         "Basic +",
@@ -43,7 +41,6 @@
     {
       "id": "company",
       "name": "Company",
-      "price": "Ask for a quote",
       "stars": "⭐⭐⭐",
       "features": [
         "Extended +",

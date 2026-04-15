@@ -168,11 +168,11 @@ collections:
               - { label: "Phone", name: "phone", widget: "string" }
               - { label: "Response Time", name: "responseTime", widget: "string" }
 
-  # Pricing/Build Section
+  # Services/Build Section
   - name: "pricing"
-    label: "Pricing"
+    label: "Services"
     files:
-      - label: "Pricing (Finnish)"
+      - label: "Services (Finnish)"
         name: "build-fi"
         file: "public/content/build-fi.json"
         fields:
@@ -191,14 +191,13 @@ collections:
             fields:
               - { label: "ID", name: "id", widget: "string" }
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
               - { label: "Stars", name: "stars", widget: "string" }
               - label: "Features"
                 name: "features"
                 widget: "list"
                 field: { label: "Feature", name: "feature", widget: "string" }
 
-      - label: "Pricing (English)"
+      - label: "Services (English)"
         name: "build-en"
         file: "public/content/build-en.json"
         fields:
@@ -217,7 +216,6 @@ collections:
             fields:
               - { label: "ID", name: "id", widget: "string" }
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
               - { label: "Stars", name: "stars", widget: "string" }
               - label: "Features"
                 name: "features"
@@ -241,7 +239,6 @@ collections:
             fields:
               - { label: "ID", name: "id", widget: "string" }
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
               - { label: "Stars", name: "stars", widget: "string" }
               - label: "Features"
                 name: "features"
@@ -261,7 +258,6 @@ collections:
             fields:
               - { label: "ID", name: "id", widget: "string" }
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
               - { label: "Stars", name: "stars", widget: "string" }
               - label: "Features"
                 name: "features"
