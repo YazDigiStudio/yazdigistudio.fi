@@ -1,8 +1,4 @@
 {
-  "instructions": {
-    "desktop": "Vedä kiertääksesi • Klikkaa valitaksesi sivun",
-    "mobile": "Pyyhkäise kiertääksesi • Napauta valitaksesi sivun"
-  },
   "hero": {
     "headline": "Modernit verkkosivut pienyrityksille ja freelancereille",
     "subheadline": "Helppo ylläpitää. Nopea ja luotettava. Ei teknistä päänvaivaa.",
@@ -11,7 +7,6 @@
   },
   "navigation": {
     "services": "Palvelut",
-    "pricing": "Palvelut",
     "about": "Meistä",
     "contact": "Ota yhteyttä"
   }

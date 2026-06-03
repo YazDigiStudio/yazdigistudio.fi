@@ -304,12 +304,6 @@ collections:
         name: "ui-fi"
         file: "public/content/ui-fi.json"
         fields:
-          - label: "Instructions"
-            name: "instructions"
-            widget: "object"
-            fields:
-              - { label: "Desktop Instructions", name: "desktop", widget: "string" }
-              - { label: "Mobile Instructions", name: "mobile", widget: "string" }
           - label: "Hero Section"
             name: "hero"
             widget: "object"
@@ -323,7 +317,6 @@ collections:
             widget: "object"
             fields:
               - { label: "Services", name: "services", widget: "string" }
-              - { label: "Pricing", name: "pricing", widget: "string" }
               - { label: "About", name: "about", widget: "string" }
               - { label: "Contact", name: "contact", widget: "string" }
 
@@ -331,12 +324,6 @@ collections:
         name: "ui-en"
         file: "public/content/ui-en.json"
         fields:
-          - label: "Instructions"
-            name: "instructions"
-            widget: "object"
-            fields:
-              - { label: "Desktop Instructions", name: "desktop", widget: "string" }
-              - { label: "Mobile Instructions", name: "mobile", widget: "string" }
           - label: "Hero Section"
             name: "hero"
             widget: "object"
@@ -350,6 +337,5 @@ collections:
             widget: "object"
             fields:
               - { label: "Services", name: "services", widget: "string" }
-              - { label: "Pricing", name: "pricing", widget: "string" }
               - { label: "About", name: "about", widget: "string" }
               - { label: "Contact", name: "contact", widget: "string" }

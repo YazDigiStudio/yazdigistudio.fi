@@ -1,8 +1,4 @@
 {
-  "instructions": {
-    "desktop": "Drag to rotate • Click face to select",
-    "mobile": "Swipe to rotate • Tap face to select"
-  },
   "hero": {
     "headline": "Modern Websites for Small Businesses & Freelancers",
     "subheadline": "Easy to maintain. Fast and reliable. No technical headaches.",
@@ -11,7 +7,6 @@
   },
   "navigation": {
     "services": "Services",
-    "pricing": "Services",
     "about": "About",
     "contact": "Contact"
   }
